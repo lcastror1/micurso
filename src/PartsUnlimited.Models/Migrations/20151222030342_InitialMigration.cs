@@ -12,6 +12,7 @@ namespace PartsUnlimited.Models.Migrations
                 name: "AspNetRoles",
                 columns: table => new
                 {
+                    //hola este es un cambio
                     Id = table.Column<string>(nullable: false),
                     ConcurrencyStamp = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
