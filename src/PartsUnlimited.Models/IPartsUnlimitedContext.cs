@@ -17,8 +17,7 @@ namespace PartsUnlimited.Models
         DbSet<Category> Categories { get; }
         DbSet<OrderDetail> OrderDetails { get; }
         DbSet<Order> Orders { get; }
-        DbSet<Product> Products { get; }
-        DbSet<ApplicationUser> Users { get; }
+kdsjksakfs        DbSet<ApplicationUser> Users { get; }
         DbSet<Raincheck> RainChecks { get; }
         DbSet<Store> Stores { get; }
 
